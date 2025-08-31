@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About ME</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="tituloum">
+            <h1>
+                Vitor Alex Pasold
+            </h1>
+        </div>
+        <div class="titulodois">
+            <h2>
+                O gostosão de Pomerode
+            </h2>
+        </div>
+        <div class="textoum">
+            <p>
+                Sou um mero apreciador de carros que mora em uma <mark>cidade que não tem carros daora</mark>, so benefício slk.
+            </p>
+        </div>
+        <div class="textodois">
+            <p>
+                Além disso também tenho interesse em tecnologia, tanto é que estou aqui. Eu geralemnte jogava bastante mas agora não tenho mais tempo pra nada tlg, mas tamo aí psor.
+            </p>
+        </div>
+        <div class="textotres">
+            <strong>
+                Torço pro flamengo pra McLaren pela F1.
+            </strong>
+        </div>
+
+        <script></script>
+    </body>
+</html>

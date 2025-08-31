@@ -1,0 +1,10 @@
+.imagemCarro{
+    padding-left: 200px;
+    height: 100px;
+    width: auto;
+    justify-content: left;
+    align-items: left;
+    display: grid;
+    transform: rotate(90);
+    transform-origin: top left;
+}

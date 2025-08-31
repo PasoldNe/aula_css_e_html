@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hidrox</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <div class="teto">
+            <a href="../index">Home</a>
+        </div>
+
+        <div class="titulo">
+            <h1>A sua loja de produtos essencias sobre lavagem automotiva</h1>
+        </div>
+
+        <div class="textoProd">
+            <p>O Hydrox Pro da Vonixx é um coating cerâmico hidrorreativo de alta tecnologia, ativado através da água, sem necessidade de toque ou espalhamento manual. Isso torna a aplicação prática, rápida e segura. Com fórmula nanotecnológica, o Hydrox Pro oferece proteção de até 10 meses na pintura, criando uma camada resistente que repele água, sujeira e contaminantes, além de proporcionar brilho intenso e toque liso. Também pode ser aplicado em vidros, melhorando a hidrorrepelência e a visibilidade em dias chuvosos. O produto pode ser diluído em proporções de 1:20, 1:40 ou até 1:60, garantindo excelente rendimento nas versões de 240ml e 500ml. O modo de uso consiste em lavar bem o veículo, diluir o produto conforme a tabela recomendada, pulverizar sobre a superfície ainda molhada e fria, enxaguar imediatamente com lavadora de alta pressão para ativar o coating e finalizar com a secagem completa. O Hydrox Pro não deve ser aplicado em superfícies quentes ou sob sol direto, e não é indicado para plásticos ou capotas sintéticas. A Vonixx recomenda seu uso em pintura e vidros para máxima performance.</p>
+        </div>
+        <img class="imagem" alt="produtosVonixxImagem" src="links/prod.png"></img>
+    </body>
+</html>

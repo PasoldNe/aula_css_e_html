@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Microfibra</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <div class="teto">
+            <a href="../index">Home</a>
+        </div>
+
+        <div class="titulo">
+            <h1>A sua loja de produtos essencias sobre lavagem automotiva</h1>
+        </div>
+
+        <div class="textoProd">
+            <p>As microfibras da Vonixx são panos compostos por poliéster e poliamida, desenvolvidos para oferecer alta absorção, suavidade e segurança na limpeza automotiva. Elas são essenciais para evitar riscos na pintura, remover resíduos com eficiência e garantir acabamento impecável. A Vonixx oferece uma linha completa com gramaturas variadas, cortes precisos e materiais de alta qualidade, além de embalagens com fecho hermético que protegem os panos contra sujeiras. Entre os destaques estão a Toalha de Microfibra 2 Lados 600GSM (40x40cm), ideal para remoção de ceras e polidores; o Pano Ultra Fino 200GSM (40x40cm), perfeito para acabamentos delicados; o Pano para Vidros 260GSM (40x40cm), que remove marcas sem deixar fiapos; e a Toalha sem costura 350GSM (40x60cm), excelente para secagem e remoção de produtos. Cada tipo de microfibra tem uma função específica, como secagem da pintura, limpeza de vidros, aplicação de ceras spray e acabamento final. Quanto maior a gramatura (GSM), maior a capacidade de absorção e suavidade.</p>
+        </div>
+        <img class="imagem" alt="produtosVonixxImagem" src="links/prod.png"></img>
+        
+    </body>
+</html>

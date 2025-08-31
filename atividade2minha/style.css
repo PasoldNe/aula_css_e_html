@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(50, 50, 50);
+}
+.teto{
+    background-color:  rgb(78, 78, 78);
+    height: 100px;
+}
+h1{
+    color: bisque;
+    text-align: center;
+    font-family: cursive;
+    font-size: 90px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.lista{ 
+    display:grid; 
+    justify-content: center;
+}
+.itemUm{
+    text-decoration: none; 
+    color: inherit; 
+    color: blueviolet;
+}
+.itemDois{
+    text-decoration: none; 
+    color: inherit; 
+    color: beige;
+}
+.itemTres{
+    text-decoration: none; 
+    color: inherit; 
+    color:aqua
+}
+.itemQuatro{
+    text-decoration: none; 
+    color: inherit; 
+    color: aquamarine;
+}
+.siteExterno{
+    display:grid; 
+    justify-content: center;
+}
+.textoProd{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(200, 200, 200);
+    padding: 150px;
+}
+.imagem{
+    height: 200px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    padding-left: 500px;
+    padding-top: 90px;
+}

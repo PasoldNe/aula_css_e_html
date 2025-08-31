@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VFloc</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <div class="teto">
+            <a href="../index">Home</a>
+        </div>
+        <div class="titulo">
+            <h1>A sua loja de produtos essencias sobre lavagem automotiva</h1>
+        </div>
+
+        <div class="textoProd">
+            <p>O V-Floc da Vonixx é um shampoo automotivo super concentrado com pH neutro, desenvolvido para lavagens eficazes e seguras. Sua fórmula contém agentes condicionadores e tensoativos especiais que proporcionam limpeza profunda, alto grau de lubrificação e brilho à pintura, mesmo sem conter cera. A lubrificação elevada facilita o deslize da luva de microfibra, reduzindo o risco de micro-riscos. Além disso, o produto é biodegradável, espumante e possui aroma agradável de uva. Por ser super concentrado, o V-Floc oferece excelente rendimento: a versão de 500ml pode render até 200 litros de solução, enquanto a de 5 litros chega a render até 2000 litros. Ele pode ser diluído em proporções como 1:400 para lavagem comum com balde ou 1:20 para uso em Snow Foam. A aplicação é simples: após a pré-lavagem, dilui-se cerca de 10ml do produto em 4 litros de água, ajustando conforme o nível de sujeira. A lavagem deve começar pela parte superior do veículo, utilizando uma luva de microfibra, seguida de enxágue e secagem com toalha apropriada. O V-Floc está disponível em versões de 240ml, 500ml, 1,5L, 3L e 5L, atendendo desde o consumidor doméstico até profissionais da área de detalhamento automotivo.</p>
+        </div>
+        <img class="imagem" alt="produtosVonixxImagem" src="links/prod.png"></img>
+    </body>
+</html>

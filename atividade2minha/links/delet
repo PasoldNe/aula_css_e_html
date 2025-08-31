@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Delet</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <div class="teto">
+            <a href="../index">Home</a>
+        </div>
+
+        <div class="titulo">
+            <h1>A sua loja de produtos essencias sobre lavagem automotiva</h1>
+        </div>
+
+        <div class="textoProd">
+            <p>O Delet da Vonixx é um limpador de alta performance desenvolvido para remover sujeiras severas de pneus e borrachas. Sua fórmula potente devolve o aspecto original das superfícies tratadas, sem deixar o tom acinzentado comum em produtos convencionais. Ao ser aplicado, o Delet forma uma espuma que muda de cor — de branco para tons escuros — indicando a presença de sujeira pesada e o momento ideal para esfregação. Com o auxílio de uma escova para pneus, a limpeza se torna ainda mais eficaz. O modo de uso é simples: com o pneu seco, pulveriza-se o produto diretamente na superfície, aguarda-se de 30 a 60 segundos, esfrega-se com escova apropriada e enxágua-se com jato d’água abundante. O processo pode ser repetido para sujeiras mais resistentes. O Delet está disponível em embalagens de 500ml, 1,5L e 5L, oferecendo excelente rendimento. Embora seja seguro, recomenda-se evitar aplicação sob sol direto ou em superfícies quentes, além do uso de luvas e óculos de proteção. Em caso de contato com olhos ou pele, lavar com água em abundância.</p>
+        </div>
+        <img class="imagem" alt="produtosVonixxImagem" src="links/prod.png"></img>
+    </body>
+</html>
