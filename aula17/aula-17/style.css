@@ -71,6 +71,7 @@ body * {
 
 #profile img {
     width: 112px;
+    border-radius: 100%;
    /* display: block; remove o espaço embaixo da imagem, transforma em block a tag */
    /* margin: auto; centraliza a imagem horizontalmente */
 }
