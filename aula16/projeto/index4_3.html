@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR" itemscope itemtype="http://schema.org/EducationalOrganization">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursos – TechFuture</title>
+  <meta name="description" content="Lista de cursos oferecidos pela TechFuture: Web Development, Python, JavaScript e Mobile.">
+  <meta name="keywords" content="cursos de tecnologia, Web Development, Python, JavaScript, Mobile">
+  <link rel="stylesheet" href="styles.css">
+  <meta itemprop="name" content="TechFuture">
+  <meta itemprop="description" content="Cursos de Web Development, Python, JavaScript e Mobile.">
+</head>
+<body>
+
+  <!-- Cabeçalho e Navegação -->
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="logo.png" alt="Logotipo da TechFuture">
+      </a>
+    </div>
+    <nav aria-label="Menu Principal">
+      <ul>
+        <li><a href="index4.html">Início</a></li>
+        <li><a href="index4_2.html">Sobre</a></li>
+        <li><a href="index4_3.html">Cursos</a></li>
+        <li><a href="index4_4.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Catálogo de Cursos (Microdata) -->
+  <main>
+    <h1>Cursos</h1>
+    <section itemscope itemtype="http://schema.org/CourseCatalog">
+      <!-- Curso 1 -->
+      <div itemprop="hasCourse" itemscope itemtype="http://schema.org/Course">
+        <h2 itemprop="name">Web Development</h2>
+        <p itemprop="description">Aprenda HTML5, CSS3, JavaScript e frameworks modernos para criar sites e apps web.</p>
+      </div>
+      <!-- Curso 2 -->
+      <div itemprop="hasCourse" itemscope itemtype="http://schema.org/Course">
+        <h2 itemprop="name">Python</h2>
+        <p itemprop="description">Domine a linguagem Python para automação, análise de dados e desenvolvimento back-end.</p>
+      </div>
+      <!-- Curso 3 -->
+      <div itemprop="hasCourse" itemscope itemtype="http://schema.org/Course">
+        <h2 itemprop="name">JavaScript</h2>
+        <p itemprop="description">Aprofunde-se em ECMAScript 6+, Node.js, React e outras tecnologias JS.</p>
+      </div>
+      <!-- Curso 4 -->
+      <div itemprop="hasCourse" itemscope itemtype="http://schema.org/Course">
+        <h2 itemprop="name">Mobile</h2>
+        <p itemprop="description">Desenvolva apps nativas e híbridas para Android e iOS usando React Native e Flutter.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 TechFuture. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>

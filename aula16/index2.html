@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscrição Cursos – Escola Tech</title>
+  <style>
+    form { max-width: 800px; margin: auto; }
+    fieldset { margin-bottom: 1.5rem; padding: 1rem; }
+    legend { font-weight: bold; }
+    label { display: block; margin-top: 0.75rem; }
+    input, select, textarea { width: 100%; padding: 0.5rem; margin-top: 0.25rem; }
+    .inline { display: inline-block; width: auto; margin-right: 1rem; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+
+  <h1>Formulário de Inscrição</h1>
+  <form id="form-inscricao" novalidate>
+
+    <!-- Seção 1: Dados Pessoais -->
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+
+      <label for="nome">
+        Nome completo
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          required
+          minlength="3"
+          placeholder="Ex: Maria da Silva">
+      </label>
+
+      <label for="email">
+        Email
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="seu@exemplo.com">
+      </label>
+
+      <label for="telefone">
+        Telefone
+        <input
+          type="tel"
+          id="telefone"
+          name="telefone"
+          required
+          pattern="^\(\d{2}\)\s?\d{4,5}-\d{4}$"
+          placeholder="(XX)XXXXX-XXXX"
+          title="Formato: (99)99999-9999">
+      </label>
+
+      <label for="dob">
+        Data de nascimento
+        <input
+          type="date"
+          id="dob"
+          name="data_nascimento"
+          required>
+      </label>
+
+      <label for="cpf">
+        CPF
+        <input
+          type="text"
+          id="cpf"
+          name="cpf"
+          required
+          pattern="^\d{3}\.\d{3}\.\d{3}-\d{2}$"
+          placeholder="123.456.789-00"
+          title="Formato: XXX.XXX.XXX-XX">
+      </label>
+    </fieldset>
+
+    <!-- Seção 2: Endereço -->
+    <fieldset>
+      <legend>Endereço</legend>
+
+      <label for="cep">
+        CEP
+        <input
+          type="text"
+          id="cep"
+          name="cep"
+          required
+          pattern="^\d{5}-\d{3}$"
+          placeholder="12345-678"
+          title="Formato: 12345-678">
+      </label>
+
+      <label for="rua">
+        Rua
+        <input
+          type="text"
+          id="rua"
+          name="rua"
+          required>
+      </label>
+
+      <label for="numero">
+        Número
+        <input
+          type="number"
+          id="numero"
+          name="numero"
+          required
+          min="1">
+      </label>
+
+      <label for="complemento">
+        Complemento
+        <input
+          type="text"
+          id="complemento"
+          name="complemento">
+      </label>
+
+      <label for="bairro">
+        Bairro
+        <input
+          type="text"
+          id="bairro"
+          name="bairro"
+          required>
+      </label>
+
+      <label for="cidade">
+        Cidade
+        <input
+          type="text"
+          id="cidade"
+          name="cidade"
+          required>
+      </label>
+
+      <label for="estado">
+        Estado
+        <select
+          id="estado"
+          name="estado"
+          required>
+          <option value="">Selecione...</option>
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <!-- Seção 3: Informações do Curso -->
+    <fieldset>
+      <legend>Informações do Curso</legend>
+
+      <label for="curso">
+        Curso desejado
+        <select id="curso" name="curso" required>
+          <option value="">Selecione...</option>
+          <option value="desenvolvimento_web">Desenvolvimento Web</option>
+          <option value="data_science">Data Science</option>
+          <option value="inteligencia_artificial">Inteligência Artificial</option>
+          <option value="redes_e_seg">Redes e Segurança</option>
+        </select>
+      </label>
+
+      <div>
+        Turno preferido
+        <label class="inline">
+          <input type="radio" name="turno" value="manha" required> Manhã
+        </label>
+        <label class="inline">
+          <input type="radio" name="turno" value="tarde"> Tarde
+        </label>
+        <label class="inline">
+          <input type="radio" name="turno" value="noite"> Noite
+        </label>
+      </div>
+
+      <div>
+        Já tem experiência na área?
+        <label class="inline">
+          <input type="radio" name="experiencia" id="exp-sim" value="sim" required> Sim
+        </label>
+        <label class="inline">
+          <input type="radio" name="experiencia" id="exp-nao" value="nao"> Não
+        </label>
+      </div>
+
+      <div id="div-exp-desc">
+        <label for="exp-desc">
+          Se sim, descreva (opcional)
+          <textarea id="exp-desc" name="exp_descricao" rows="3"></textarea>
+        </label>
+      </div>
+
+      <div>
+        Como conheceu a escola?
+        <label class="inline">
+          <input type="checkbox" name="conhecimento[]" value="rede_social"> Redes Sociais
+        </label>
+        <label class="inline">
+          <input type="checkbox" name="conhecimento[]" value="amigos"> Indicação de Amigos
+        </label>
+        <label class="inline">
+          <input type="checkbox" name="conhecimento[]" value="busca"> Buscas na Internet
+        </label>
+        <label class="inline">
+          <input type="checkbox" name="conhecimento[]" value="outro"> Outro
+        </label>
+      </div>
+    </fieldset>
+
+    <!-- Seção 4: Forma de Pagamento -->
+    <fieldset>
+      <legend>Forma de Pagamento</legend>
+
+      <div>
+        Tipo de pagamento
+        <label class="inline">
+          <input type="radio" name="pagamento" id="pagto-credito" value="credito" required> Cartão de Crédito
+        </label>
+        <label class="inline">
+          <input type="radio" name="pagamento" value="boleto"> Boleto
+        </label>
+        <label class="inline">
+          <input type="radio" name="pagamento" value="pix"> Pix
+        </label>
+      </div>
+
+      <div id="div-parcelas">
+        <label for="parcelas">
+          Se parcelado, quantas vezes?
+          <select id="parcelas" name="parcelas">
+            <option value="">Selecione...</option>
+            <!-- 1x a 12x -->
+            ${[...Array(12)].map((_, i) => `<option value="${i+1}">${i+1}x</option>`).join('')}
+          </select>
+        </label>
+      </div>
+
+      <label for="observacoes">
+        Observações (opcional)
+        <textarea id="observacoes" name="observacoes" rows="3"></textarea>
+      </label>
+    </fieldset>
+
+    <button type="submit">Enviar Inscrição</button>
+  </form>
+
+  <script>
+    // Ajusta max date para ter no mínimo 16 anos
+    document.addEventListener('DOMContentLoaded', () => {
+      const dob = document.getElementById('dob');
+      const today = new Date();
+      const ano = today.getFullYear() - 16;
+      const mes = String(today.getMonth()+1).padStart(2, '0');
+      const dia = String(today.getDate()).padStart(2, '0');
+      dob.max = `${ano}-${mes}-${dia}`;
+
+      // Toggle experiência
+      const expSim = document.getElementById('exp-sim');
+      const expDesc = document.getElementById('div-exp-desc');
+      function atualizaExp() {
+        expDesc.style.display = expSim.checked ? 'block' : 'none';
+      }
+      expSim.addEventListener('change', atualizaExp);
+      document.getElementById('exp-nao').addEventListener('change', atualizaExp);
+      atualizaExp();
+
+      // Toggle parcelas
+      const pagtoCredito = document.getElementById('pagto-credito');
+      const divParcelas = document.getElementById('div-parcelas');
+      document.getElementsByName('pagamento').forEach(radio => {
+        radio.addEventListener('change', () => {
+          divParcelas.style.display = pagtoCredito.checked ? 'block' : 'none';
+        });
+      });
+      divParcelas.style.display = pagtoCredito.checked ? 'block' : 'none';
+    });
+  </script>
+</body>
+</html>

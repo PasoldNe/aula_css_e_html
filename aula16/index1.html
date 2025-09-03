@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Tech News</title>
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="logo">
+      <h1>Tech News</h1>
+      <p>Notícias de Tecnologia</p>
+    </div>
+    <nav class="menu" aria-label="Menu principal">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#noticias">Notícias</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="conteudo-principal">
+    <article class="noticia-destaque" id="noticia-destaque">
+      <h2>Nova Versão do HTML6 em Desenvolvimento</h2>
+      <div class="info-noticia">
+        <p>
+          <time datetime="2024-03-15">15 de março de 2024</time>
+          por João Silva
+        </p>
+      </div>
+      <figure class="imagem-noticia">
+        <img src="html6.jpg" alt="Ilustração do HTML6">
+        <figcaption>Imagem ilustrativa do HTML6</figcaption>
+      </figure>
+      <p>O W3C anunciou oficialmente o início do desenvolvimento do HTML6...</p>
+      <p>As principais novidades incluem...</p>
+    </article>
+
+    <section class="outras-noticias" aria-labelledby="outras-noticias-title">
+      <h3 id="outras-noticias-title">Outras Notícias</h3>
+      <article class="noticia-pequena">
+        <h4>JavaScript ES2024 Lançado</h4>
+        <p>Resumo da notícia...</p>
+      </article>
+      <article class="noticia-pequena">
+        <h4>CSS4 em Discussão</h4>
+        <p>Resumo da notícia...</p>
+      </article>
+    </section>
+  </main>
+
+  <aside class="barra-lateral">
+    <section class="sobre-blog">
+      <h3>Sobre o Blog</h3>
+      <p>Tech News é seu portal de notícias sobre tecnologia...</p>
+    </section>
+    <section class="newsletter">
+      <h3>Newsletter</h3>
+      <p>Receba as últimas notícias por email</p>
+      <form>
+        <label for="newsletter-email">Seu email</label>
+        <input id="newsletter-email" type="email" placeholder="exemplo@dominio.com">
+        <button type="submit">Inscrever</button>
+      </form>
+    </section>
+  </aside>
+
+  <footer class="rodape">
+    <address class="contato">
+      <p>Contato: <a href="mailto:contato@technews.com">contato@technews.com</a></p>
+      <p>Telefone: <a href="tel:+551112345678">(11) 1234-5678</a></p>
+    </address>
+    <p>© 2024 Tech News. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>

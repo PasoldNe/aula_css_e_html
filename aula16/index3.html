@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Online</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <a href="/">
+        <img src="logo.png" alt="Logotipo da Loja Online">
+      </a>
+      <h1 class="sr-only">Loja Online</h1>
+    </div>
+    <nav class="menu" aria-label="Menu principal">
+      <ul>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content" id="produtos">
+    <h2>Produtos em Destaque</h2>
+
+    <section class="produto" aria-labelledby="titulo-produto-xyz">
+      <img src="produto1.jpg" alt="Smartphone XYZ na cor preta">
+      <h3 id="titulo-produto-xyz">Smartphone XYZ</h3>
+      <p>R$ 899,00</p>
+      <button
+        type="button"
+        onclick="comprar('XYZ')"
+        aria-label="Comprar Smartphone XYZ">
+        Comprar
+      </button>
+    </section>
+
+    <section class="produto" aria-labelledby="titulo-produto-abc">
+      <img src="produto2.jpg" alt="Notebook ABC aberto sobre mesa">
+      <h3 id="titulo-produto-abc">Notebook ABC</h3>
+      <p>R$ 2.499,00</p>
+      <button
+        type="button"
+        onclick="comprar('ABC')"
+        aria-label="Comprar Notebook ABC">
+        Comprar
+      </button>
+    </section>
+
+    <section class="formulario" aria-labelledby="titulo-newsletter">
+      <h2 id="titulo-newsletter">Newsletter</h2>
+      <form action="#" method="post">
+        <label for="newsletter-email">Email</label>
+        <input
+          type="email"
+          id="newsletter-email"
+          name="email"
+          required
+          placeholder="Digite seu email">
+        <button
+          type="submit"
+          aria-label="Inscrever-se na newsletter">
+          Inscrever
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <address>
+      <p>Contato: <a href="tel:+551112345678">(11) 1234-5678</a></p>
+    </address>
+    <p>© 2024 Loja Online</p>
+  </footer>
+
+</body>
+</html>

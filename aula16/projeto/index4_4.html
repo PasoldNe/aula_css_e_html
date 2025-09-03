@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR" itemscope itemtype="http://schema.org/ContactPage">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato – TechFuture</title>
+  <meta name="description" content="Fale conosco na TechFuture. Preencha o formulário para tirar dúvidas ou se inscrever nos cursos.">
+  <meta name="keywords" content="contato TechFuture, dúvidas, inscrição, formulário">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cabeçalho e Menu -->
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="logo.png" alt="Logotipo da TechFuture">
+      </a>
+    </div>
+    <nav aria-label="Menu Principal">
+      <ul>
+        <li><a href="index4.html">Início</a></li>
+        <li><a href="index4_2.html">Sobre</a></li>
+        <li><a href="index4_3.html">Cursos</a></li>
+        <li><a href="index4_4.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Formulário de Contato (ContactAction) -->
+  <main>
+    <h1>Contato</h1>
+    <form action="#" method="POST"
+          itemscope itemtype="http://schema.org/ContactAction"
+          aria-labelledby="form-contato">
+      <fieldset>
+        <legend id="form-contato">Preencha o formulário</legend>
+
+        <label for="nome">
+          Nome
+          <input type="text" id="nome" name="nome" required
+                 minlength="3"
+                 itemprop="agent" aria-required="true"
+                 placeholder="Seu nome completo">
+        </label>
+
+        <label for="email">
+          Email
+          <input type="email" id="email" name="email" required
+                 itemprop="recipient" aria-required="true"
+                 placeholder="seu@exemplo.com">
+        </label>
+
+        <label for="mensagem">
+          Mensagem
+          <textarea id="mensagem" name="mensagem" required
+                    itemprop="description" aria-required="true"
+                    rows="5"
+                    placeholder="Como podemos ajudar?"></textarea>
+        </label>
+
+        <button type="submit" aria-label="Enviar mensagem">Enviar</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <!-- Rodapé com Contato Direto -->
+  <footer>
+    <address itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
+      <p>Telefone: 
+        <a href="tel:+551112345678" itemprop="telephone">(11) 1234-5678</a>
+      </p>
+      <p>Email: 
+        <a href="mailto:contato@techfuture.com" itemprop="email">contato@techfuture.com</a>
+      </p>
+    </address>
+    <p>&copy; 2025 TechFuture. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
